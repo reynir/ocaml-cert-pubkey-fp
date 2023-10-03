@@ -1,0 +1,4 @@
+(executable
+ (public_name cert-pubkey-fp)
+ (name main)
+ (libraries x509 hex bos cmdliner))
