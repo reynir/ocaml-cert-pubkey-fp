@@ -13,3 +13,6 @@ client.crt: 6c3cb3b3988354351de2d65faab4bc61ee2ed69692bd34addfcd533a4ab33809
 server.crt: 554ef40554bf08b7c85d46413b70b32ef43424bb41838a987f72fb785aafbfb4
 $ # wow, so easy!
 ```
+
+It does nothing else!
+(Besides printing `--help` or `--version` information if requested)
