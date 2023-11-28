@@ -39,13 +39,12 @@ let jump colonize cert_files =
 open Cmdliner
 
 let certs =
-  let doc = "PEM-encoded certificate file" in
+  let doc = "PEM-encoded certificate file." in
   Arg.(value & pos_all non_dir_file [] & info ~docv:"CERT_FILE" ~doc [])
 
 let colonize =
-  let doc = "Add a bunch of colons in the output. \
-             This has nothing to do with colonialism." in
-  Arg.(value & flag & info ~doc [ "colonize" ])
+  let doc = "Add a bunch of colons in the output." in
+  Arg.(value & flag & info ~doc ~docs:"NON-COLONIAL OPTIONS" [ "colonize" ])
 
 let cmd =
   let info =
